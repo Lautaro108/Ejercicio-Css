@@ -6,6 +6,7 @@
 .body {
   background-image: url(./swinin.webp);
   background-size: cover;
+  background-attachment: fixed;
   font-family: "Ubuntu";
 }
 .nav {
