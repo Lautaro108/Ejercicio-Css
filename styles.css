@@ -2,30 +2,44 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-.body {
-  background-image: url(./swinin.webp);
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: "Ubuntu";
-}
-.nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: rgba(71, 104, 104, 0.607);
-}
-
-.lista {
-  color: cornflowerblue;
-  padding: 1rem;
   text-decoration: none;
+  list-style: none;
+}
+body {
+  font-family: "Ubuntu";
+  background: rgb(3, 6, 37);
+}
+header {
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+  border-radius: 2px;
 }
 
-ul {
+.renault {
+  width: 5rem;
+  border-radius: 20px;
+}
+.navba,
+.list {
   display: flex;
-  gap: 120px;
-  list-style: none;
-  font-size: xx-large;
-  color: rgb(27, 181, 223);
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.navba {
+  gap: 5rem;
+}
+.list {
+  gap: 2rem;
+  color: black;
+}
+.c__a {
+  border-radius: 20px;
+  width: 3rem;
+}
+main {
+  color: white;
 }
