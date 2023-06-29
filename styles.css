@@ -7,10 +7,10 @@
 }
 body {
   font-family: "Ubuntu";
-  background: rgb(3, 6, 37);
+  background: rgb(255, 255, 255);
 }
 header {
-  background: #ffffff;
+  background: #d8a414;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,8 +19,9 @@ header {
 }
 
 .renault {
-  width: 5rem;
+  width: 4rem;
   border-radius: 20px;
+  cursor: pointer;
 }
 .navba,
 .list {
@@ -30,7 +31,7 @@ header {
   gap: 30px;
 }
 .navba {
-  gap: 5rem;
+  gap: 6rem;
 }
 .list {
   gap: 2rem;
@@ -39,7 +40,11 @@ header {
 .c__a {
   border-radius: 20px;
   width: 3rem;
+  cursor: pointer;
 }
-main {
-  color: white;
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
