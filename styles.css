@@ -158,21 +158,33 @@ spam {
 .footer-container {
   max-width: 1200px;
   padding: 50px;
-  width: 500px;
-  background: orange;
-}
-.contacto {
-  background: red;
+  /* width: 200px; */
+  /* background: orange; */
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.contacto {
+  background: #4f585877;
+  display: flex;
+  flex-direction: column;
+  width: 700px;
   padding: 20px;
-  justify-content: start;
+  border-radius: 10px;
 }
 .title {
-  background: yellow;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  border: 6px double #4f585877;
+  border-radius: 10px;
 }
 .Rer {
-  background: blue;
+  /* background: blue; */
+  display: flex;
+  padding: 20px;
+  gap: 300px;
 }
 .contacto img {
   width: 30px;
@@ -188,4 +200,23 @@ spam {
 }
 .cel {
   cursor: pointer;
+}
+.image {
+  display: flex;
+  gap: 15px;
+}
+.lol {
+  border-radius: 5px;
+}
+.foot {
+  background: #c2c2b9;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.foot img {
+  width: 100px;
+  height: 50px;
 }
