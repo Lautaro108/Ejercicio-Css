@@ -1,9 +1,24 @@
 @media (max-width: 576px) {
+  .headeer {
+    width: 500px;
+    top: 0;
+  }
+  .card-item {
+    display: none;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
   .navba ul {
     background: linear-gradient(to right, #bdc3c7, #2c3e50);
-    /* background: rgb(211, 204, 204); */
+    border: 2px solid rgb(54, 70, 69);
     width: 100%;
-    height: calc(140vh - 80px);
+    height: calc(80vh - 80px);
+    border-radius: 0px 0px 10px 10px;
     position: absolute;
     top: 80px;
     left: 0;
