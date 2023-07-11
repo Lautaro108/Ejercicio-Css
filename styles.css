@@ -171,12 +171,18 @@ spam {
   text-align: center;
 }
 .contacto {
-  background: #4f585877;
+  background: rgb(204, 201, 201);
+  /* background: #4f585877; */
   display: flex;
   flex-direction: column;
   width: 700px;
   padding: 20px;
   border-radius: 10px;
+}
+.contacto h3 {
+  background: silver;
+  padding: 10px;
+  border-radius: 5px 5px 0px 0px;
 }
 .title {
   padding: 20px;
@@ -184,24 +190,21 @@ spam {
   justify-content: center;
   border: 6px double #4f585877;
   border-radius: 10px;
-}
-.Rer {
-  /* background: blue; */
-  display: flex;
-  padding: 20px;
-  gap: 300px;
+  margin: 50px;
 }
 .contacto img {
   width: 30px;
   border-radius: 5px;
 }
 .con-1 {
+  background: #4f585877;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
   padding: 20px;
   justify-content: start;
+  border-radius: 2px;
 }
 .cel {
   cursor: pointer;

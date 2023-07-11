@@ -33,4 +33,28 @@
   #menu-toggle:checked ~ .list {
     display: flex;
   }
+  .title {
+    align-items: center;
+    justify-content: center;
+  }
+  .image {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+  }
+  .con-1 {
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+  }
+  .lol {
+    display: none;
+  }
+  .foot {
+    background: red;
+    width: 497px;
+    height: 60px;
+  }
 }
