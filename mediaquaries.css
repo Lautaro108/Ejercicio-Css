@@ -69,4 +69,8 @@
     flex-direction: column;
     align-items: center;
   }
+  .card-two {
+    display: flex;
+    flex-direction: column;
+  }
 }
