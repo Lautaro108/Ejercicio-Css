@@ -1,7 +1,12 @@
 @media (max-width: 576px) {
   .headeer {
-    width: 500px;
+    width: 100vh;
     top: 0;
+  }
+  main {
+    width: 100vh;
+    align-items: center;
+    justify-content: center;
   }
   .card-item {
     display: none;
@@ -17,7 +22,7 @@
     background: linear-gradient(to right, #bdc3c7, #2c3e50);
     border: 2px solid rgb(54, 70, 69);
     width: 100%;
-    height: calc(80vh - 80px);
+    height: calc(100vh - 80px);
     border-radius: 0px 0px 10px 10px;
     position: absolute;
     top: 80px;
@@ -52,7 +57,9 @@
     display: none;
   }
   .foot {
-    width: 497px;
+    width: 100vh;
     height: 60px;
+    align-items: center;
+    justify-content: center;
   }
 }
