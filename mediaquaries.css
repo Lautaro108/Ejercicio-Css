@@ -1,13 +1,13 @@
 /* Tablet */
 @media (max-width: 992px) {
   .headeer {
-    width: 100vh;
+    width: 1000px;
   }
 
   .navba ul {
     background: linear-gradient(to right, #bdc3c7, #2c3e50);
     border: 2px solid rgb(54, 70, 69);
-    width: 100vh;
+    width: 1000px;
     height: calc(90vh - 80px);
     border-radius: 0px 0px 10px 10px;
     position: absolute;
@@ -22,7 +22,7 @@
   }
   #hrr {
     display: flex;
-    width: 100vh;
+    width: 1000px;
   }
   .navba i {
     display: block;
@@ -67,7 +67,7 @@
     display: none;
   }
   .foot {
-    width: 100vh;
+    width: 992px;
   }
 }
 /* Celphone */
