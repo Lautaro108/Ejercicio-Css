@@ -1,3 +1,64 @@
+/* Tablet */
+@media (max-width: 992px) {
+  .headeer {
+    width: 100vh;
+  }
+  .navba ul {
+    background: linear-gradient(to right, #bdc3c7, #2c3e50);
+    border: 2px solid rgb(54, 70, 69);
+    width: 100%;
+    height: calc(90vh - 80px);
+    border-radius: 0px 0px 10px 10px;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    gap: 100px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    display: none;
+  }
+  .navba i {
+    display: block;
+  }
+  #menu-toggle:checked ~ .list {
+    display: flex;
+  }
+  main {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-info {
+    padding: 0px 0px 20px 50px;
+  }
+  #Card {
+    width: 100vh;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-two {
+    display: flex;
+    flex-direction: column;
+  }
+  .title {
+    width: 100vh;
+  }
+  .image {
+    display: flex;
+    flex-direction: column;
+  }
+  .contacto {
+    background: white;
+  }
+  .lol {
+    display: none;
+  }
+}
+/* Celphone */
 @media (max-width: 576px) {
   .headeer {
     width: 100vh;
